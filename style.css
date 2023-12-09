@@ -1,0 +1,237 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+header {
+    width: 92%;
+    left: 50px;
+    position: fixed;
+    display: flex;
+    background-color: brown;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    margin-left: 800px;
+    font-style: italic;
+}
+
+.kata {
+    background-color: rgba(209, 21, 21, 0.322);
+    color: white;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+}
+
+.kata-kata {
+    margin-left: 50px;
+}
+
+.box2 {
+    width: 500px;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.foto-header2 {
+    border-radius: 70px 0px 70px 0px;
+}
+
+.btn {
+    background-color: white;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 2px 2px 0px 0px white;
+    margin-left: 10px;
+}
+
+.box1 {
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.foto-header {
+    border-radius: 250px 250px 0px 0px;
+}
+
+.fot {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foto, .fotoo {
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.foto1, .foto2 {
+    margin-left: 20px;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.foto1 img {
+    border-radius: 10px 10px 0 0;
+}
+
+.foto2 img {
+    border-radius: 10px 10px 0 0;
+}
+
+.harga-tengah {
+    background-color: burlywood;
+    padding-bottom: 30px;
+}
+
+.servis {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servis1 {
+    text-align: center;
+    page-break-inside: 10px;
+}
+
+.servis2 {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.servis2 p {
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.in-servis {
+    display: flex;
+    margin-top: 50px;
+}
+
+.last-bar {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.yoi-last {
+    padding: 10px 100px 10px 100px;
+}
+
+footer {
+    background-color: rgb(243, 157, 96);
+    margin-top: 50px;
+    padding: 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.footer-contents h4 {
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.footer-contents p{
+    margin: 20px 50px 20px 0px;
+}
+
+.footer-contents li {
+    margin: 20px 50px 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-contents a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        width: 500px;
+    }
+
+    ul {
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-left: 100px;
+    }
+
+    .kata {
+        flex-direction: column;
+    }
+
+    .box1 {
+        margin-left: 30px;
+    }
+
+    .box2 {
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    .kata-kata {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .in-servis {
+        flex-direction: column;
+    }
+
+    .servis2 {
+        margin-bottom: 30px;
+    }
+
+    .last-bar {
+        flex-direction: column;
+    }
+
+    .last-bar img {
+        padding-left: 70px;
+    }
+
+    .yoi-last {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .foto, .fotoo {
+        flex-direction: column;
+        margin-right: 150px;
+        padding-left: 150px;
+        padding-bottom: 5px;
+    }
+
+    .foto1, .foto2 {
+        margin-bottom: 10px;
+    }
+
+}
